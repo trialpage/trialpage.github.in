@@ -10,8 +10,8 @@
         #div1{
             background: linear-gradient(  grey, rgba(255, 255, 255,1));
             background-repeat: no-repeat;
-            height: 90vh;
-            width: 90vw;
+            
+            width: 98vw;
             position: relative;
             top: 20px;
             left: 5%;
@@ -51,28 +51,71 @@
             font-size: 25px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             position: absolute;
-            top: 23%;
+            top: 30%;
             left: 10%;
             -webkit-text-fill-color: rgb(16, 72, 145);
         }
-        img{
-            background: cover;
-            background-repeat : no-repeat;
-            height : 200px;
-            width : 200px;
-            position : absolute;
-            left: 70%;
-            border-radius : 50%;
+        h5{
+            position: relative;
+            text-align: left;
+            color: blueviolet;
+            text-decoration: underline;
         }
-        
+       
+        h6{
+            font-size: 30px;
+            font-family:'Times New Roman', Times, serif;
+            padding-top:20px ;
+        }
+        h4{
+            font-size: 20px;
+            color: rgb(13, 125, 156);
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            height: auto;
+            width: 100px;
+            border: 3px solid whitesmoke;
+            margin: 3px;
+        }
+        .work{
+            border: 1px solid black;
+            position: relative;
+            top: 50%;
+            flex-wrap: wrap;
+            margin: 10px;
+        }
+        #pic{
+            position:relative;
+            top: 50%;
+            margin: 20px;
+            
+        }
+        #pic>img{
+            position: relative;
+            top: 20%;
+           scale: 1/2;
+           border-color: aqua;
+           box-shadow: 2px 2px gray;
+           margin: 10px;
+            
+        }
+        #pic>img:hover{
+            border-color: blanchedalmond;
+            box-shadow: 3px 3px 5px  snow;
+           
+        }
+        .work>img:hover{
+            height: auto;
+            width: 40vw;
+            transition: 1s ;
+        }
     </style>
 </head>
 <body>
     <div id="div1" >
-        <div id="pic">
-           <img src="20220413003811_IMG_0008.JPG" class="rounded-cirlce float-start">
-        </div>
-
+        
         <div class="task-bar">
         <nav>
             <ul type="none">
@@ -81,11 +124,48 @@
                 <li><button type="button" class="btn btn-outline-info">INFO</button></li>
                 <li><button type="button" class="btn btn-outline-success">PROJECTS</button></li>
             </ul>
-        </nav>
+        </nav><br>
         </div>
         <div id="logo">
+            <h4>DR</h4>
+        </div><br><br>
+        <div id="pic">
+            <img src="7A8A0889.JPG" class="rounded-cirlce float-start">
+            <h6>Hello! I'm David Raju</h6>
+            <h4>Graphic Designer</h4>
+         </div><br>
+        <br><br>
+        
+ 
+         <div>
             
-        </div>
+            <div class="work">
+                <h5>My Designs</h5>
+                <img src="p1.jpg" alt="">
+                <img src="p2.jpg" alt="">
+                <img src="p3.jpg" alt="">
+                <img src="p4.jpg" alt="">
+                <img src="p5.jpg" alt="">
+                <img src="p6.jpg" alt="">
+                <img src="p7.jpg" alt="">
+                <img src="p8.jpg" alt="">
+                <img src="p9.jpg" alt="">
+                <img src="farewellposter.png" alt="">
+                <img src="food fest 1Artboard 1.jpg" alt="">
+                <img src="harivardhagini mam !.jpg" alt="">
+                <img src="ieeeofferArtboard 1.jpg" alt="">
+                <img src="IMG-20221024-WA0002.jpg" alt="">
+                <img src="IMG-20231222-WA0043.jpg" alt="">
+                <img src="kargil.jpg" alt="">
+                <img src="NLP cert. of apperication@1000x-801.jpg" alt="">
+                <img src="PHARMFRESHERS@1000x-801.jpg" alt="">
+                <img src="sankranthi.jpg" alt="">
+                <img src="SPYROCERT.png" alt="">
+                <img src="SPYROCERTV.png" alt="">
+                <img src="SPYROR.png" alt="">
+                
+            </div>
+         </div>
         
     </div>
 
